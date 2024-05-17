@@ -1,0 +1,112 @@
+
+h1,h2,p {
+    text-align:center;
+}
+
+body {
+    background-image:url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    font-family:sans-serif;
+    padding:20px;
+}
+  
+
+  /*Un selector id se define colocando el símbolo de 
+  almohadilla # directamente delante del valor id del elemento.*/
+
+.menu{
+    width:80%;
+    background-color:burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px 20px 20px 20px
+    
+}
+
+.flavor, .dessert{
+    text-align:left;
+    width: 75%;
+}
+
+.price{
+    text-align:right;
+    width: 25%;
+}
+
+.item p{
+    display:inline-block;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size:18px;
+}
+
+/*Puede añadir un valor alternativo para font-family 
+añadiendo otro nombre de fuente separado por una coma. 
+*/
+
+h1,h2{
+    font-family:Impact,serif;
+}
+
+.established{
+    font-style:italic;
+}
+
+h1{
+    font-size:40px;
+    margin-top: 0;
+    margin-bottom:15px;
+}
+
+h2{
+    font-size:30px;
+}
+
+hr{
+    height:2px;
+    background-color:brown;
+    border-color:brown;
+}
+
+.bottom-line{
+    margin-top: 25px;
+  }
+
+/*FOOTER*/
+
+footer{
+    font-size:14px;
+  }
+
+a{
+    color: black;
+  
+}
+
+/*Cuando se visita la pagina web cambia de color*/
+
+a:visited {
+    color: black;
+  }
+
+/* Cambia de color cuando se pasa el cursor por encima del link*/
+
+a:hover{
+    color:brown;
+}
+
+/*Cambia de color cuando se le da click al enlace*/
+
+a:active{
+    color:brown;
+}
+
+.address{
+    margin-bottom:5px;
+}
+
+img{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:-25px;
+}
